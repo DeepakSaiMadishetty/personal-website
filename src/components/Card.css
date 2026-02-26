@@ -1,0 +1,43 @@
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  box-shadow: var(--shadow-card);
+  border: 1px solid rgba(255, 107, 53, 0.08);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-4px);
+  border-color: rgba(255, 107, 53, 0.2);
+}
+
+.card-shimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 243, 230, 0) 0%,
+    rgba(255, 209, 102, 0.3) 50%,
+    rgba(255, 243, 230, 0) 100%
+  );
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-md);
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.card-content {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card-content--loaded {
+  opacity: 1;
+}

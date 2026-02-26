@@ -1,0 +1,31 @@
+.floating-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: var(--radius-xl);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.35);
+  transition: box-shadow var(--transition);
+}
+
+.floating-btn:hover {
+  box-shadow: 0 12px 35px rgba(255, 107, 53, 0.45);
+}
+
+.floating-btn--secondary {
+  background: white;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.15);
+}
+
+.floating-btn--secondary:hover {
+  box-shadow: 0 12px 35px rgba(255, 107, 53, 0.25);
+}
