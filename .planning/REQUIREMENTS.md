@@ -107,25 +107,54 @@
 
 ## Traceability
 
-*Populated during roadmap creation.*
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SITE-01–03 | Phase 1 | Pending |
-| CONT-01–06 | Phase 1 | Pending |
-| RESM-01 | Phase 1 | Pending |
-| KB-01–04 | Phase 2 | Pending |
-| RAG-01–05 | Phase 3 | Pending |
-| ABST-01–03 | Phase 3 | Pending |
-| API-01–07 | Phase 4 | Pending |
-| CHAT-01–06 | Phase 5 | Pending |
-| CI-01–03 | Phase 5 | Pending |
+| SITE-01 | Phase 1: Vercel Migration | Pending |
+| SITE-02 | Phase 1: Vercel Migration | Pending |
+| SITE-03 | Phase 1: Vercel Migration | Pending |
+| CONT-01 | Phase 2: Portfolio Content | Pending |
+| CONT-02 | Phase 2: Portfolio Content | Pending |
+| CONT-03 | Phase 2: Portfolio Content | Pending |
+| CONT-04 | Phase 2: Portfolio Content | Pending |
+| CONT-05 | Phase 2: Portfolio Content | Pending |
+| CONT-06 | Phase 2: Portfolio Content | Pending |
+| RESM-01 | Phase 2: Portfolio Content | Pending |
+| KB-01 | Phase 3: Knowledge Base Authoring | Pending |
+| KB-02 | Phase 3: Knowledge Base Authoring | Pending |
+| KB-03 | Phase 3: Knowledge Base Authoring | Pending |
+| KB-04 | Phase 3: Knowledge Base Authoring | Pending |
+| ABST-01 | Phase 4: AI Abstraction Layer | Pending |
+| ABST-02 | Phase 4: AI Abstraction Layer | Pending |
+| ABST-03 | Phase 4: AI Abstraction Layer | Pending |
+| RAG-01 | Phase 5: RAG Indexer | Pending |
+| RAG-02 | Phase 5: RAG Indexer | Pending |
+| RAG-03 | Phase 5: RAG Indexer | Pending |
+| RAG-04 | Phase 5: RAG Indexer | Pending |
+| RAG-05 | Phase 5: RAG Indexer | Pending |
+| API-01 | Phase 6: Serverless Chat API | Pending |
+| API-02 | Phase 6: Serverless Chat API | Pending |
+| API-03 | Phase 6: Serverless Chat API | Pending |
+| API-04 | Phase 6: Serverless Chat API | Pending |
+| API-05 | Phase 6: Serverless Chat API | Pending |
+| API-06 | Phase 6: Serverless Chat API | Pending |
+| API-07 | Phase 6: Serverless Chat API | Pending |
+| CHAT-01 | Phase 7: Chat Widget | Pending |
+| CHAT-02 | Phase 7: Chat Widget | Pending |
+| CHAT-03 | Phase 7: Chat Widget | Pending |
+| CHAT-04 | Phase 7: Chat Widget | Pending |
+| CHAT-05 | Phase 7: Chat Widget | Pending |
+| CHAT-06 | Phase 7: Chat Widget | Pending |
+| CI-01 | Phase 8: GitHub Actions Re-Indexing | Pending |
+| CI-02 | Phase 8: GitHub Actions Re-Indexing | Pending |
+| CI-03 | Phase 8: GitHub Actions Re-Indexing | Pending |
 
 **Coverage:**
-- v1 requirements: 33 total
-- Mapped to phases: 33
-- Unmapped: 0 ✓
+- v1 requirements: 38 total
+- Mapped to phases: 38
+- Unmapped: 0
+
+**Note:** The pre-roadmap traceability stub counted 33 requirements. The actual count from the requirement definitions above is 38 (SITE: 3, CONT: 6, RESM: 1, KB: 4, ABST: 3, RAG: 5, API: 7, CHAT: 6, CI: 3). All 38 are mapped.
 
 ---
 *Requirements defined: 2026-03-03*
-*Last updated: 2026-03-03 after initial definition*
+*Last updated: 2026-03-03 — traceability populated after roadmap creation (8 phases)*
