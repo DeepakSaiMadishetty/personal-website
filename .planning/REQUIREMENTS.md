@@ -9,9 +9,9 @@
 
 ### Deployment
 
-- [ ] **SITE-01**: Site deployed on Vercel with a production URL
-- [ ] **SITE-02**: Vite base path updated from `/personal-website/` to `/` for Vercel compatibility
-- [ ] **SITE-03**: GitHub Actions deploy workflow updated to target Vercel (replaces GitHub Pages)
+- [x] **SITE-01**: Site deployed on Vercel with a production URL
+- [x] **SITE-02**: Vite base path updated from `/personal-website/` to `/` for Vercel compatibility
+- [x] **SITE-03**: GitHub Actions deploy workflow updated to target Vercel (replaces GitHub Pages)
 
 ### Portfolio Content
 
@@ -109,9 +109,9 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SITE-01 | Phase 1: Vercel Migration | Pending |
-| SITE-02 | Phase 1: Vercel Migration | Pending |
-| SITE-03 | Phase 1: Vercel Migration | Pending |
+| SITE-01 | Phase 1: Vercel Migration | Complete |
+| SITE-02 | Phase 1: Vercel Migration | Complete |
+| SITE-03 | Phase 1: Vercel Migration | Complete |
 | CONT-01 | Phase 2: Portfolio Content | Pending |
 | CONT-02 | Phase 2: Portfolio Content | Pending |
 | CONT-03 | Phase 2: Portfolio Content | Pending |
