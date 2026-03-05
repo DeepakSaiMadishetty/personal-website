@@ -35,7 +35,10 @@ Phases 7 and 8 can run in parallel (both depend on Phase 6).
   2. All internal navigation links work correctly (no `/personal-website/` prefix in routes or asset URLs)
   3. Pushing to the `development` branch triggers the GitHub Actions deploy workflow and the Vercel deployment updates
   4. The old GitHub Pages deployment is replaced and Vercel is the single source of truth for production
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 01-01-PLAN.md — Vercel project setup + code changes (vite.config.js, vercel.json, deploy.yml)
+- [ ] 01-02-PLAN.md — Push to development and verify live deployment
 
 ### Phase 2: Portfolio Content
 **Goal**: Every portfolio section displays real, accurate information about Deepak — real photo, real bio, real education, real work history, real projects with GitHub links, downloadable resume
@@ -133,7 +136,7 @@ Phases 7 and 8 can run in parallel (both require Phase 6).
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Vercel Migration | 0/TBD | Not started | - |
+| 1. Vercel Migration | 0/2 | Not started | - |
 | 2. Portfolio Content | 0/TBD | Not started | - |
 | 3. Knowledge Base Authoring | 0/TBD | Not started | - |
 | 4. AI Abstraction Layer | 0/TBD | Not started | - |
